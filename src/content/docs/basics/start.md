@@ -8,7 +8,7 @@ If you're already sorted with streaming on a desktop via OBS then adding stream 
 Once opening up any stream tool there will be a setting to the side to input your Twitch channel name. This is how it links to your chat.
 
 :::note
-This does not require logging in. You can use this on any other channel on Twitch, maybe to test how it looks!
+This does not require logging in. You can use any tool on any Twitch channel - why not test how it looks!
 :::
 
 Once you reload the app (via the refresh icon in the channel input box) then you'll see a live preview of the app on the right hand side.
