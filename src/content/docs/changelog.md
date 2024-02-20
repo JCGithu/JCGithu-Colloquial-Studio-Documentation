@@ -10,6 +10,7 @@ description: Guess it's not that easy.
 - Added more words in Twordle
 - Trimmed some unneeded lines
 - Tweaked a few Chatter style names after writing up the documentation
+- Small UI changes because I can't just leave things alone
 
 ### V2.2.4
 

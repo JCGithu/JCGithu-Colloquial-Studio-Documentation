@@ -5,21 +5,32 @@ sidebar:
   order: 2
 ---
 
-Each chat bubble in Chatter has classes and variables applied dependant on the message and user.
+Each chat bubble in Chatter has different classes and variables that can be applied. These are dependant on the type of message and type of user.
 
 ### Message Type
 
-These classes will be applied when applicable. You can test these with [chat commands](/chatter/commands).
+You can test these with [chat commands](/chatter/commands).
+
+- `bits`
+- `announcement`
+- `first`
+
+The first event it triggered on a users first chat in the stream.
+
+### User Type
+
+You can test all of these (except reward IDs) with [chat commands](/chatter/commands).
 
 - `sub`
 - `mod`
 - `vip`
 - `partner`
-- `bits`
-- `announcement`
-- `first`
+- username
+- custom-reward-id
 
-First is the users first chat in the stream.
+Each username will be added as a class, allowing you to customise the look for specific chatters.
+
+The custom reward ID is for channel point redeems. You can easily find the ID for a point redeem with this [tool from Instafluff](https://www.instafluff.tv/TwitchCustomRewardID/?channel=YOURTWITCHCHANNEL). Make sure to put your own channel name in the URL.
 
 ### Animation
 
@@ -33,24 +44,15 @@ Use these to overwrite the in-built Chatter animations
 
 ### Alignment
 
-Horizontal Alignment of the bubble. These are applied individually, so you could apply different alignments to different message types
+Horizontal Alignment of the bubble. These are applied individually, so you could apply different alignments to different message types.
 
 - `flex-start`
 - `center`
 - `flex-end`
 
-### Applied Each Message
-
-Each persons username will be added as a class, allowing you to customise the look for specific individuals
-
-The custom reward ID is for channel point redeems. You can easily find the ID for a point redeem with this [tool from Instafluff](https://www.instafluff.tv/TwitchCustomRewardID/?channel=YOURTWITCHCHANNEL)
-
-- username
-- custom-reward-id
-
 ### Applied Classes
 
-These classes are applied if the relevant toggles are selected in the dashboard
+These classes are applied if the relevant settings are selected in the app.
 
 - `dropShadow` for bubble drop shadow
 - `bubbleBanner` for banner mode

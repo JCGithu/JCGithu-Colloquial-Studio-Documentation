@@ -14,7 +14,8 @@ Typing the following commands in chat will apply the trait after the dash:
 - `!chatter-mod`
 - `!chatter-vip`
 - `!chatter-partner`
-- `!chatter-bits`.
+- `!chatter-bits`
+- `!chatter-first`
 - `!chatter-user` is a generic test command.
 
 You can write additional text after the command if you want to preview longer messages.
