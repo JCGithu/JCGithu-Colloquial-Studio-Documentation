@@ -6,8 +6,7 @@ description: Guess it's not that easy.
 ### V2.2.5
 
 - **Docs**
-  - There's a whole new subdomain for any documentation on the site. Hopefully it helps for anyone with questions!
-  - Moved the changelog here
+  - There's now documentation, and on it's own subdomain!
 - Added more words in Twordle
 - Trimmed some unneeded lines
 - Tweaked a few Chatter style names after writing up the documentation

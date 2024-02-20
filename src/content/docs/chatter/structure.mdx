@@ -6,10 +6,7 @@ sidebar:
   order: 1
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
-
-:::caution[Work in Progress]
-:::
+import { Card } from "@astrojs/starlight/components";
 
 ## The Layout
 
@@ -39,47 +36,48 @@ Here's the main structure of Chatter. This can all be pulled from inspecting the
 </section>
 ```
 
-## The Sections
+## Notable Sections
 
-### chatBoundary
+### Chat Boundary <sup><sub> _`id:chatBoundary`_</sub></sup>
 
 This contains the whole app, so used for broad changes.
 
-<CardGrid>
-  <Card title="CSS Variables" icon="pen">
-    `--padding` <br /> `--fontSize`
-  </Card>
-</CardGrid>
+{" "}
 
-### chatBubble
+<Card title="CSS Variables" icon="pen">
+  `--padding` `--fontSize`
+</Card>
+
+### Chat Bubble <sup><sub>_`class:chatBubble`_</sub></sup>
+
+Each chat message comes through as a bubble. Specific CSS variables related to the user that has sent the message will be applied to each bubble, which you could overwrite. See more about that in the [next section](/chatter/css)
+
+Text flow and wrapping is annoyingly tricky in CSS, so beware that any changes could mess up multi-line chat messages.
 
 `animHeight` is needed for animations, so would not recommend applying anything to that unless you are specifically writing custom animations.
 
-<CardGrid>
-  <Card title="CSS Variables" icon="pen">
-    `--animTime` <br /> `--animEase` <br /> `--userCol` <br /> `--shadowCol` <br /> `--animHeight`
-  </Card>
-  <Card title="CSS Properties" icon="list-format">
-    Opacity <br /> border-radius
-  </Card>
-  <Card title="CSS Classes" icon="open-book">
-    mod <br /> bits <br /> bubbleBanner (if Banner Mode is on) <br /> first (first message from user) <br /> dropShadow
-  </Card>
-</CardGrid>
+{" "}
 
-### chatBackground
+<Card title="CSS Variables" icon="pen">
+  `--animTime` `--animEase` `--userCol` `--shadowCol` `--animHeight`
+</Card>
+
+### Divider <sup><sub>_`class:divider`_</sub></sup>
+
+The divider symbol between user and message, `:` by default. To change, target the `:before` psudeo-element and change the `content` CSS value.
+
+### chatBackground <sup><sub>_`id:chatBackground`_</sub></sup>
 
 Very self-explanitory. Does not contain any chat data.
 
-<CardGrid>
-  <Card title="CSS Variables" icon="pen">
-    `--bgColour` Background colour
-  </Card>
-  <Card title="CSS Properties" icon="list-format">
-    Opacity <br /> border-radius
-  </Card>
-</CardGrid>
+Could be replaced with images, gradients, or other custom designs.
 
-> ##### Variables
+{" "}
 
-Border-radius
+<Card title="CSS Variables" icon="pen">
+  `--bgColour`
+</Card>
+
+:::caution[Work in Progress]
+This page is still WIP. If you have questions or some aspect of how to customise is missing please ask in [Discord](https://discord.gg/8vmqSWnKvS)
+:::
