@@ -1,6 +1,9 @@
 ---
 title: Saving Settings
 description: A guide in my new Starlight docs site.
+next: false
+sidebar:
+  order: 3
 ---
 
 Each tool has 3 save slots. You can save and load these via the settings menu, right next to the URL bar.

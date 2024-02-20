@@ -1,6 +1,8 @@
 ---
 title: Using Stream Tools
 description: Start here
+sidebar:
+  order: 1
 ---
 
 If you're already sorted with streaming on a desktop via OBS then adding stream tools is extremely simple.

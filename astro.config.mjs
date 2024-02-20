@@ -7,21 +7,24 @@ export default defineConfig({
 		starlight({
 			title: 'Hoot',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				twitch: 'https://twitch.tv/colloquialowl',
+				youtube: 'https://www.youtube.com/@colloquialstudio',
+				discord: 'https://discord.gg/8vmqSWnKvS',
+				github: 'https://github.com/JCGithu/Colloquial-Studio',
 			},
 			sidebar: [
 				{
 					label: 'The Basics',
-					items: [
-						{ label: 'Start here', link: '/basics/start/' },
-						{ label: 'Then, why?', link: '/basics/why/' },
-						{ label: 'Saving settings', link: '/basics/saving/' },
-					],
+					autogenerate: { directory: 'basics' },
 				},
 				{
 					label: 'Chatter',
 					autogenerate: { directory: 'chatter' },
 				},
+				{
+					label: 'Changelog',
+					link: '/changelog'
+				}
 			],
 		}),
 	],

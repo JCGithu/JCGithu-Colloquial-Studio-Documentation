@@ -1,6 +1,8 @@
 ---
 title: So Why The Documentation?
 description: Guess it's not that easy.
+sidebar:
+  order: 2
 ---
 
 For basic usage of these apps that really is all there is to it.

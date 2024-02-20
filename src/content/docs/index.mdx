@@ -5,7 +5,7 @@ template: splash
 hero:
   tagline: Hoot is a guide to customising Colloquial Studio tools.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.svg
   actions:
     - text: Start here
       link: /basics/start/
@@ -18,15 +18,12 @@ hero:
 
 import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
 
-<CardGrid stagger>
-  <LinkCard title="Have a Question?" description="Join the discord to ask directly" icon="discord" href="https://discord.gg/8vmqSWnKvS" />
-  <Card title="Add new content" icon="add-document">
-    Add Markdown or MDX files to `src/content/docs` to create new pages.
+<CardGrid>
+  <Card title="Read the changelog" icon="open-book">
+    Learn what's new on the site in [the changelog](/changelog).
   </Card>
-  <Card title="Configure your site" icon="setting">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
+  <Card title="Have a Question?" icon="discord">
+    Join the [Discord!]('https://discord.gg/8vmqSWnKvS')
   </Card>
-  <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
-  </Card>
+
 </CardGrid>

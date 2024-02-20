@@ -1,0 +1,85 @@
+---
+title: App Structure
+description: Here's the main structure of Chatter.
+prev: false
+sidebar:
+  order: 1
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+:::caution[Work in Progress]
+:::
+
+## The Layout
+
+Here's the main structure of Chatter. This can all be pulled from inspecting the app, but this is a bit easier, right?
+
+```html
+<section>
+  <!-- This is the entire app -->
+  <div id="chatBoundary">
+    <div id="chatBubble">
+      <!-- For each message -->
+      <div id="chatContent">
+        <span>
+          <b class="chatName"></b>
+          <span class="pronoun"></span>
+          <span class="divider"></span>
+          <!-- For each word of message -->
+          <span class="word"> </span>
+          <!-- For each emote of message -->
+          <img class="emote" />
+        </span>
+      </div>
+    </div>
+    <!-- Underlying background -->
+    <div id="chatBackground"></div>
+  </div>
+</section>
+```
+
+## The Sections
+
+### chatBoundary
+
+This contains the whole app, so used for broad changes.
+
+<CardGrid>
+  <Card title="CSS Variables" icon="pen">
+    `--padding` <br /> `--fontSize`
+  </Card>
+</CardGrid>
+
+### chatBubble
+
+`animHeight` is needed for animations, so would not recommend applying anything to that unless you are specifically writing custom animations.
+
+<CardGrid>
+  <Card title="CSS Variables" icon="pen">
+    `--animTime` <br /> `--animEase` <br /> `--userCol` <br /> `--shadowCol` <br /> `--animHeight`
+  </Card>
+  <Card title="CSS Properties" icon="list-format">
+    Opacity <br /> border-radius
+  </Card>
+  <Card title="CSS Classes" icon="open-book">
+    mod <br /> bits <br /> bubbleBanner (if Banner Mode is on) <br /> first (first message from user) <br /> dropShadow
+  </Card>
+</CardGrid>
+
+### chatBackground
+
+Very self-explanitory. Does not contain any chat data.
+
+<CardGrid>
+  <Card title="CSS Variables" icon="pen">
+    `--bgColour` Background colour
+  </Card>
+  <Card title="CSS Properties" icon="list-format">
+    Opacity <br /> border-radius
+  </Card>
+</CardGrid>
+
+> ##### Variables
+
+Border-radius
