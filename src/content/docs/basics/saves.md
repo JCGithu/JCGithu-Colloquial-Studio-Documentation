@@ -6,12 +6,14 @@ sidebar:
   order: 3
 ---
 
-Each tool has 3 save slots. You can save and load these via the settings menu, right next to the URL bar.
-
-This is for keeping different presets, such as a different styled chat for your intro screen and main stream.
+Each tool has 3 save slots. You can save and load these via the settings menu, to the left of the URL bar. This is for keeping different presets, for example seperate styles for your intro screen or BRB.
 
 ### But, my saves are gone?!
 
-I was very commited to making sure that this site does not require logging in or saving of any of your data - just to make it as easy to pick up and use as possible.
+This site does not require <ins>logging in</ins> or <ins>saving of any of your data</ins> -- to make it as easy as possible to pick up and try.
 
-One downside of this is that the saves are only tied to your browser. So if you save something in Chrome on your laptop it will not appear in Firefox, or in Chrome on mobile.
+One downside of this is that the saves are tied **to your browser**. Saving in Chrome will not appear in Firefox, or in Chrome on a different device.
+
+:::tip
+You can import the URLs you use in OBS into stream tools via the same settings menu. This allows you to easily share or keep settings for future use.
+:::
