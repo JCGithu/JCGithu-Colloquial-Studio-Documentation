@@ -8,7 +8,7 @@ description: Guess it's not that easy.
 - **Docs**
   - There's now documentation, and on it's own subdomain!
 - Fixed a problem (I made) with FFZ and BTTV emotes in Chatter not running. They're now stored in maps not arrays. I have no idea why I didn't do sooner as it should be more efficent now when swapping out text for emotes.
-- Added more words in Twordle
+- Added more words in Twordle and made it actually fit on mobile.
 - General spring cleaing. Removing defunct lines, etc.
 - Reworded some Chatter CSS classes
 - Small UI changes. _Because I can't just leave things alone_
