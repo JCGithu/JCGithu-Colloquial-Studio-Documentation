@@ -5,6 +5,8 @@ description: Guess it's not that easy.
 
 ### V2.2.5
 
+- **Emote Drop**
+  - Suika game mode! Turn this on for similar emotes to collide and grow
 - **Docs**
   - There's now documentation, and on it's own subdomain!
 - Fixed a problem (I made) with FFZ and BTTV emotes in Chatter not running. They're now stored in maps not arrays. I have no idea why I didn't do sooner as it should be more efficent now when swapping out text for emotes.
