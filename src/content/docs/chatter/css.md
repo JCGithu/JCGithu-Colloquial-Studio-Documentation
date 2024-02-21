@@ -34,13 +34,14 @@ The custom reward ID is for channel point redeems. You can easily find the ID fo
 
 ### Animation
 
-Use these to overwrite the in-built Chatter animations
+Use these to overwrite the in-built Chatter animations. I would recommend setting it to `None` if you're planning to do that, to reduce any conflicts and not needing to slap `!important` all over the place.
 
 - `Pop_In`
 - `Slide_Left`
 - `Slide_Right`
 - `Fade_In`
 - `Grow`
+- `None`
 
 ### Alignment
 
