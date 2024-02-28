@@ -5,7 +5,8 @@ description: Guess it's not that easy.
 
 ### V2.2.6 (HotFix)
 
-- Fixed Chatter animations that weren't working right in OBS
+- Fixed Chatter animations that weren't working right in OBS.
+- Fixed Chatter test commands not running in OBS.
 - Fixed Chatter deleting messages over time.
 
 ### V2.2.5
