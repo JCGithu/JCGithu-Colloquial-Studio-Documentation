@@ -3,9 +3,9 @@ title: Changelog
 description: Guess it's not that easy.
 ---
 
-### V2.2.7 (Beta)
+### V2.2.7
 
-- Updated pronouns API. If you update your pronouns on the [site](https://pr.alejo.io/) secondary pronouns are now included
+- Updated pronouns API. Secondary pronouns are now included on the [alejo.io site](https://pr.alejo.io/) and in Chatter. Head there to update yours if needed. (Thanks for flagging [Shogi Explained](https://www.twitch.tv/shogiexplained))
 - I think I have 'fixed' deleting messages over time about 5 times now. I'm hoping this is the last time.
 
 ### V2.2.6 (HotFix)
