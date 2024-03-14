@@ -3,6 +3,11 @@ title: Changelog
 description: Guess it's not that easy.
 ---
 
+### V2.2.7 (Beta)
+
+- Updated pronouns API. If you update your pronouns on the [site](https://pr.alejo.io/) secondary pronouns are now included
+- I think I have 'fixed' deleting messages over time about 5 times now. I'm hoping this is the last time.
+
 ### V2.2.6 (HotFix)
 
 - Fixed Chatter animations that weren't working right in OBS.
