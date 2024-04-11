@@ -3,6 +3,12 @@ title: Changelog
 description: Guess it's not that easy.
 ---
 
+### V2.2.8
+
+- Revamped the Twordle auto mode. It's clearer, much less prone to error, and easier to add into OBS!
+- Added more Twordle words in the categories.
+- Added a link to a mini project of mine on the homepage. A Chrome extension for Storygraph users. I'd like to keep adding small tools to this site when I can!
+
 ### V2.2.7
 
 - Updated pronouns API. Secondary pronouns are now included on the [alejo.io site](https://pr.alejo.io/) and in Chatter. Head there to update yours if needed. (Thanks for flagging [Shogi Explained](https://www.twitch.tv/shogiexplained))
