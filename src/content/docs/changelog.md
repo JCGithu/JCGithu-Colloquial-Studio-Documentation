@@ -3,6 +3,13 @@ title: Changelog
 description: Guess it's not that easy.
 ---
 
+### V2.2.9
+
+Twordle fixes only.
+
+- Fixed the character checker allowing special characters
+- Fixed the word selector so it didn't select every single word on the list
+
 ### V2.2.8
 
 - Revamped the Twordle auto mode. It's clearer, much less prone to error, and easier to add into OBS!
