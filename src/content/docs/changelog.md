@@ -1,7 +1,12 @@
 ---
 title: Changelog
-description: Guess it's not that easy.
+description: All the changes across colloquial.studio
 ---
+
+### V2.2.10
+
+- Added a new [Tool](https://www.colloquial.studio/streamtools/preview), mainly for my own use. This lets you read the raw information for a Twitch chat, so may be useful for others debugging twitch apps!
+- Updated the badge API to include newer badges. Enjoy your Twitch Con flair!
 
 ### V2.2.9
 
